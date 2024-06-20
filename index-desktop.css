@@ -1,0 +1,104 @@
+@media (min-width: 768px) {
+  :root {
+    --padding-section: 50px; 
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .nav__items {
+    display: flex;
+  }
+  
+  .nav__item {
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+
+  }
+
+  .nav__item a:hover {
+    color: #037ec8;
+  }
+  
+  .nav__item:last-child {
+    margin-right: 0;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .about-us__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-us__title {
+    text-align: inherit;
+  }
+
+  .about-us__item {
+    width: 50%;
+  }
+
+  .about-us__paragraph {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .about-us__image {
+    height: 400px;
+    margin-top: 30px;
+  }
+
+  .services__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .ambit__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .ambit__cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1366px) {
+  .about-us__image {
+    height: 600px;
+  }
+
+  .nav__item {
+    margin: 0px 30px;
+  }
+
+  .ambit__cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .ambit__card {
+    max-width: 320px;
+    height: 480px;
+  }
+
+  .ambit__subtitle {
+    font-size: 32px;
+  }
+
+  .contact__text,
+  .contact__text {
+    font-size: 32px;
+  }
+
+  .contact__email,
+  .contact__phone {
+    font-size: 24px;
+  }
+}
